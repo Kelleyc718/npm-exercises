@@ -1,11 +1,5 @@
-'use strict';
+const sayHello = require('./say-hello');
 const $ = require('jquery');
 
-const sayHello = () => {
-  console.log('Hello');
-};
-
-$('body').append("<p>'Hello World'</p>");
-
-sayHello();
+$('body').append(`<p>${sayHello()}</p>`);
 console.log('stuff');
