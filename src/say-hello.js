@@ -1,5 +1,5 @@
 const sayHello = () => {
-  console.log('Hi');
+  return 'Hi';
 };
 
-module.exports = sayHello;
+export default sayHello;
